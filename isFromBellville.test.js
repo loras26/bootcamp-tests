@@ -1,4 +1,4 @@
-describe('The test for the isFromBelleville function' , function(){
+describe('The test for the isFromBellville function' , function(){
     it('This function should return false if the string start does not start with "CY"' , function(){
         assert.equal(false, isFromBellville("CJ 123 456"));
 
