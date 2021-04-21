@@ -1,5 +1,5 @@
-describe('The test for the findItemsOver20 function' , function(){
-    it('This function should return "Hello, pupu" when i pass the name pupu' , function(){
+describe('The findItemsOver20 function' , function(){
+    it('This function should return all objects with qty greater than 20' , function(){
         assert.deepEqual([
             {"name":'pears', "qty" : 37},
             {"name": 'bananas',"qty" : 27},

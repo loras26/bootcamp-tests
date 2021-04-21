@@ -1,5 +1,5 @@
 function findItemsOver(itemList1,threshold){
-    var threshold=25;
+    var threshold=20;
     //console.log(threshold)
     //console.log(itemList1)
     var results=[]
