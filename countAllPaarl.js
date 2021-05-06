@@ -8,9 +8,9 @@ function countAllPaarl(str){
       var str2=str1[i];
       //console.log(str2)
       //using if statement to check if it satisfy the conditions in place
-    if(str2.includes("CJ")){ 
+    if(str2.includes("CJ")){
      paarlCounter ++; 
-                             }
+      }
        
     }
   return paarlCounter;

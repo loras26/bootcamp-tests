@@ -1,10 +1,11 @@
 describe('The test for the countAllFromTown function' , function(){
-    it('This function takes in a car registration number separated by a comma and the string start the returns the number of registration numbers that start with the start string ' , function(){
+    it('This function return the length 3 when three regNos with the string start "CL" are passed ' , function(){
         assert.equal(3, countAllFromTown("CL 124,CY 567,CL 345, CJ 456,CL 341,'CL'"));
-        //assert.equal("Paarl", countAllFromTown("CJ"));
-        //assert.equal("Cape Town", countAllFromTown("CA"));
-
-        
+          
+    });
+    it('This function should return the length 0 when no regNo with the string start "CL" is passed to it ' , function(){
+        assert.equal(0, countAllFromTown("CY 124,CY 567,CA 345, CJ 456,CJ 341,'CL'"));
+          
     });
     
 })

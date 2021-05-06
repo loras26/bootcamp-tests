@@ -1,8 +1,19 @@
 describe('the test for the greet function' , function(){
-    it('this function should return : "Hello, pupu"' , function(){
-        assert.equal("Hello, pupu", greet("pupu"));
+    it('this function should return : "Hello, Pupu" if pupu is passed to the function' , function(){
+        assert.equal("Hello, Pupu", greet("Pupu"));
 
-        //assert.deepEqual([2,2],[2,2]);
+       
     });
+    it('this function should return : "Hello, Gugu" if Gugu is passed to the function' , function(){
+        assert.equal("Hello, Gugu", greet("Gugu"));
+
+       
+    });
+    it('this function should return : "Hello, Ruru" if Ruru is passed to the function' , function(){
+        assert.equal("Hello, Ruru", greet("Ruru"));
+
+       
+    });
+
 
 });

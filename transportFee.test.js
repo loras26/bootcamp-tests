@@ -1,10 +1,16 @@
 describe('The test for the transportFee function' , function(){
-    it('This function should take in a shift type then return the transport cost  ' , function(){
+    it('This function should return R20 when the string "morning" is passed to it ' , function(){
         assert.equal("R20", transportFee("morning"));
-        assert.equal("R10", transportFee("afternoon"));
-        assert.equal("free", transportFee("nightshift"));
-
+          
+    });
+    it('This function should return R10 when the strinng afternoon is passed to it  ' , function(){
         
+        assert.equal("R10", transportFee("afternoon"));
+          
+    });
+    it('This function should return free if the string night shift is passed to it   ' , function(){
+       
+        assert.equal("free", transportFee("nightshift"));  
     });
     
 })
